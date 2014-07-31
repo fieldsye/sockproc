@@ -13,7 +13,7 @@ output stream data and error stream data can be read back from the socket.
 Launch sockproc on a UNIX domain socket:
 
     $ ./sockproc /tmp/shell.sock
-
+    $ chmod 666 /tmp/shell.sock
 Connect to socket and type in a command line to execute, followed
 by a line that contains the number 0:
 
